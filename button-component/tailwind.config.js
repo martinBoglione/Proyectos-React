@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'fondo-aside': '#FAFBFD',
+        'dev': '#F7542E',
+        'challenges.io': '#090F31',
+        'navegacion': '#9E9E9E',
+      },
+    },
   },
   plugins: [],
 }

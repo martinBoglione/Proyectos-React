@@ -1,13 +1,12 @@
-import Footer from './components/footer.js'
+import Buttons from './components/buttons.js'
+import Aside from './components/aside.js'
 
 function App() {
   return (
-    <section className="flex flex-col flex-grow h-screen">
-      <h1 className="text-3xl font-bold underline text-red-900">
-        Hello world!
-      </h1>
-      <Footer/>
-    </section>
+    <div className="flex flex-row h-screen">
+      <Aside/>
+      <Buttons/>
+    </div>
   );
 }
 
