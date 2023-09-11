@@ -7,3 +7,4 @@
 - ~~Guess the number~~
 - ~~Tic Tac Toe~~
 - ~~Connect Four~~
+- ~~Button Component~~
