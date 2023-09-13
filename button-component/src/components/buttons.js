@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from './footer.js'
 import Header from './header.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 function Buttons() {
   return(
@@ -10,11 +12,11 @@ function Buttons() {
       <aricle className='flex flex-row w-[300px] justify-between text-[10px]' >
         <div>
           <div> &lt;Default /&gt; </div>
-          <button class="bg-gray-200 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-gray-200 font-bold shadow-md shadow-grey-500 py-2 px-4 rounded mt-2">Default</button>
         </div>
         <div>
           <div className='text-gray-400'> &:hover, &:focus </div>
-          <button class="bg-gray-300 font-bold focus:ring focus:ring-black hover:bg-gray-200 py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-gray-300 font-bold shadow-md shadow-grey-500 focus:ring focus:ring-black hover:bg-gray-200 py-2 px-4 rounded mt-2">Default</button>
         </div>
       </aricle>
 
@@ -61,11 +63,18 @@ function Buttons() {
       <aricle className='flex flex-row w-[450px] justify-between text-[10px]' >
         <div>
           <div> &lt;Button startIcon="local_grocery_store"/&gt; </div>
-          <button class="bg-transparent text-blue-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-blue-500 text-white shadow-md shadow-grey-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2 items-center">
+          <FontAwesomeIcon icon={faShoppingCart} className="mr-2" />  
+          Default
+          </button>
+
         </div>
         <div>
           <div className='text-gray-400'> &lt;Button endIcon="local_grocery_store"/&gt; </div>
-          <button class="bg-blue-100 focus:ring focus:ring-blue hover:bg-blue-300 border border-blue-500 text-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-blue-500 text-white shadow-md shadow-grey-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2 items-center">
+          Default
+          <FontAwesomeIcon icon={faShoppingCart} className="ml-2" />  
+          </button>
         </div>
       </aricle>
  
