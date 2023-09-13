@@ -1,9 +1,11 @@
 import React from 'react';
+import Footer from './footer.js'
+import Header from './header.js'
 
 function Buttons() {
   return(
-    <section className='flex flex-col justify-between  pl-10 pt-8 grow text-black'>
-      <header className='text-tittle-buttons text-[24px] mb-4 mt-3'>Buttons</header>
+    <section className='flex flex-col justify-between  pl-10 pt-8 pb-4 grow text-black'>
+      <Header/>
 
       <aricle className='flex flex-row w-[300px] justify-between text-[10px]' >
         <div>
@@ -30,11 +32,11 @@ function Buttons() {
       <aricle className='flex flex-row w-[300px] justify-between text-[10px]' >
         <div>
           <div> &lt;Button variant="text"/&gt; </div>
-          <button class="bg-transparent text-blue-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-transparent text-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
         </div>
         <div>
           <div className='text-gray-400'> &:hover, &:focus </div>
-          <button class="bg-blue-100 focus:ring focus:ring-blue hover:bg-blue-300 border border-blue-500 text-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-gray-100 focus:ring focus:ring-gray-300 hover:bg-gray-300 text-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
         </div>
       </aricle>
 
@@ -122,9 +124,7 @@ function Buttons() {
 
       <article className='text-footer font-semibold text-[12px]'>Icons: <a href='https://material.io/resources/icons/?style=round'>https://material.io/resources/icons/?style=round</a></article> 
       
-      <footer className='text-footer font-semibold text-[14px]'>
-        created by <span className='underline font-bold'>Martin Boglione</span> - devChallenges.io
-      </footer>
+    <Footer/>
     </section>
   );
 
