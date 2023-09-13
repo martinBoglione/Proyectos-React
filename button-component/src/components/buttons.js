@@ -43,18 +43,18 @@ function Buttons() {
       <aricle className='flex flex-row w-[300px] justify-between text-[10px]' >
         <div>
           <div> &lt;Button disableShadow"/&gt; </div>
-          <button class="bg-transparent text-blue-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-blue-600 text-white border border-blue-600 shadow-none font-bold py-2 px-4 rounded mt-2">Default</button>
         </div>
       </aricle>
 
       <aricle className='flex flex-row w-[378px] justify-between text-[10px]' >
         <div>
           <div> &lt;Button disabled"/&gt; </div>
-          <button class="bg-transparent text-blue-500 border border-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-gray-200 text-gray-400 border cursor-not-allowed font-bold py-2 px-4 rounded mt-2">Default</button>
         </div>
         <div>
           <div className='text-gray-400'> &lt;Button variant="text" disabled/&gt; </div>
-          <button class="bg-blue-100 focus:ring focus:ring-blue hover:bg-blue-300 border border-blue-500 text-blue-500 font-bold py-2 px-4 rounded mt-2">Default</button>
+          <button class="bg-transparent  text-gray-400 cursor-not-allowed font-bold py-2 px-4 rounded mt-2">Default</button>
         </div>
       </aricle>
 
