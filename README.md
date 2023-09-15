@@ -7,4 +7,4 @@
 - ~~Guess the number~~
 - ~~Tic Tac Toe~~
 - ~~Connect Four~~
-- 📝 Button Component
+- :heavy_check_mark: Button Component
