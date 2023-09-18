@@ -90,12 +90,12 @@ function Inputs() {
           <div className="flex flex-col">
             <div> &lt;Input size="sm"/&gt; </div>
             <label className="text-gray-900 mt-2">Label</label>
-            <input type="text" className="border border-gray-400 text-gray-900 text-sm font-semibold rounded-lg p-2 h-12 w-52" placeholder="Placeholder"></input>
+            <input type="text" className="border border-gray-400 text-gray-900 text-sm font-semibold rounded-lg p-2 h-12" placeholder="Placeholder"></input>
           </div>
           <div className="flex flex-col">
-            <div className='text-gray-400'> &lt;Input size="sm"/&gt; </div>
+            <div className='text-gray-400'> &lt;Input size="md"/&gt; </div>
             <label className="text-gray-900 mt-2 ">Label</label>
-            <input type="text" className="border border-gray-800 text-gray-900 text-sm font-semibold hover:bg-gray-200 rounded-lg p-2 h-12  w-60" placeholder="Placeholder"></input>
+            <input type="text" className="border border-gray-800 text-gray-900 text-sm font-semibold hover:bg-gray-200 rounded-lg p-2 h-12" placeholder="Placeholder"></input>
           </div>
         </aricle>
 
@@ -110,12 +110,12 @@ function Inputs() {
         <aricle className='flex flex-row w-[728px] h-[105px] justify-between text-[10px] mb-2' >
           <div className="flex flex-col">
             <div> &lt;Input multiline row="4"/&gt; </div>
-            <label className="text-gray-900 mt-2">Label</label>
-            <textarea
-              rows="4"  // Establecer el número de filas
-              className="w-full border border-gray-800 text-gray-900 text-sm rounded-lg p-2"
-              placeholder="Placeholder"  // Placeholder personalizado
-            ></textarea>
+              <label className="text-gray-900 mt-2">Label</label>
+              <textarea
+               rows="4"  // Establecer el número de filas
+                className="w-full border border-gray-800 text-gray-900 text-sm rounded-lg p-2"
+                placeholder="Placeholder"  // Placeholder personalizado
+              ></textarea>
           </div>
         </aricle>
         
