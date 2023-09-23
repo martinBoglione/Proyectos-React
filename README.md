@@ -8,4 +8,4 @@
 - ~~Tic Tac Toe~~
 - ~~Connect Four~~
 - :heavy_check_mark: Button Component
-- 📝 Input Component
+- :heavy_check_mark: Input Component
