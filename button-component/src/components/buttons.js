@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './footer.js'
 import Header from './header.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function Buttons() {
   return(
@@ -64,7 +64,7 @@ function Buttons() {
         <div>
           <div> &lt;Button startIcon="local_grocery_store"/&gt; </div>
           <button class="bg-blue-500 text-white shadow-md shadow-grey-500 border border-blue-500 font-bold py-2 px-4 rounded mt-1 items-center">
-          <FontAwesomeIcon icon={faShoppingCart} className="mr-2" />  
+          <FontAwesomeIcon icon={faPhone} className="mr-2" />  
           Default
           </button>
 
